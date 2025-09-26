@@ -1,0 +1,84 @@
+body {
+    background: linear-gradient(to right, #9ed9f7 0%, #1e528e 100%);
+    text-align: justify;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 14px;
+    color: #757E82;
+  }
+  
+  #container {
+    margin: 0 auto;
+    width: 777px;
+    background:#fff;
+    border: solid 1px;
+  }
+  
+  #header {
+    background: linear-gradient(to right, #BE93C5 0%, #7BC6CC 100%);
+    text-align: center;
+    padding: 20px;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+  }
+  
+  #header h1 {
+    font-size: 24px;
+    margin: 0.6em;
+  }
+  #header h2 {
+    font-size: 20px;
+    margin: 0.2em;
+  }
+  
+  #content {
+    background: url(../img/bglightblue.png) repeat;
+    clear: left;
+    padding: 20px;
+  }
+  
+  #content h2 {
+    color:#000;
+    font-size: 160%;
+    margin: 0 0 .5em;
+  }
+  
+  #footer {
+    color: white;
+    background: url(../img/bgblue2.png) repeat;
+    text-align: center;
+    padding: 20px;
+    margin: 0px;
+    height: 1%;
+  }
+  
+  #galeria {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    width: 70%;
+    min-height: 25.5em;
+    max-height: 25.5em;
+    list-style: none;
+    border: 1em solid #e5e5e5;
+    box-shadow: 0 0 10px #000;
+    overflow: hidden;
+  }
+  
+  #galeria li {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    border-radius: 10px;
+    padding: .4em;
+  }
+  
+  .nav {
+    display: inline-block;
+    margin-top: 1.5em;
+    text-decoration: none;
+    border: 1px solid #555;
+    color: #555555;
+    padding: .3em 1.5em;
+  }
+  
