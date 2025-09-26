@@ -1,0 +1,73 @@
+body {
+  background: linear-gradient(to right, #9ed9f7 0%, #1e528e 100%);
+  text-align: justify;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 14px;
+  color: #757E82;
+}
+
+.anim-gradient {
+  font-family: Montserrat, sans-serif !important;
+  font-size: 5rem;
+  line-height: 1.1;
+  font-weight: 500;
+  background-image: -webkit-linear-gradient(125deg, #f2291b, #f7db25, #84f527);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: color 15s infinite linear;
+}
+
+@-webkit-keyframes color {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+  }
+}
+
+#container {
+  margin: 0 auto;
+  width: 777px;
+  background: #fff;
+  border: solid 1px;
+}
+
+#header {
+  background: linear-gradient(to right, #BE93C5 0%, #7BC6CC 100%);
+  text-align: center;
+  padding: 20px;
+  color: white;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+#header h1 {
+  font-size: 24px;
+  margin: 0.6em;
+}
+
+#header h2 {
+  font-size: 20px;
+  margin: 0.2em;
+}
+
+#content {
+  clear: left;
+  padding: 20px;
+}
+
+#content h2 {
+  color: #000;
+  font-size: 160%;
+  margin: 0 0 .5em;
+}
+
+#footer {
+  color: #757E82;
+  background: lightseagreen;
+  text-align: center;
+  padding: 20px;
+  margin: 0px;
+  height: 1%;
+}
