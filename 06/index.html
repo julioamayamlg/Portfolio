@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Javascript en la página</title>
+  <link href="../css/styles.css" rel="stylesheet" type="text/css" />
+  <script defer type="text/javascript" src="./js/matrices.js"></script>
+  <script defer type="text/javascript" src="./js/script.js"></script>
+</head>
+
+<body>
+  <div id="container">
+    <div id="header">
+      <h1>
+        Ejemplos – FUNDAMENTOS DE JS (ES6)
+      </h1>
+      <h2>Desarrollo WEB en entorno cliente</h2>
+    </div>
+    <div id="content">
+
+      <h2>Matrices</h2>
+      <form action="">
+      <fieldset><legend>Dimensión de la matriz</legend>
+        <label for="dimension">Dimensión cuadrada de las matrices:</label>
+        <input id="dimension" type="number" size="5"><br/><br/>
+        <input id="generar" type="button" value="Genera matrices">&nbsp;&nbsp;
+        <input id="sumar" type="button" value="Sumar matrices">&nbsp;&nbsp;
+        <input id="restar" type="button" value="Restar matrices">&nbsp;&nbsp;
+        <input id="multiplicar" type="button" value="Multiplicar matrices">&nbsp;&nbsp;
+      </fieldset>
+      <br/><br/>
+      <table>
+        <thead><th><h2>Matriz A</h2></th><th><h2>Matriz B</h2></th><th><h2>Resultado<h2></th></thead>
+        <tbody><tr><td><p id="salidaMA"></p></td><td><p id="salidaMB"></p></td><td><p id="salidaR"></p></td></tr></tbody>
+      </table>
+      </form>
+      </br></br>
+      <a href="../index.html">Página principal</a>
+    </div>
+    <div id="footer">
+      © 2024 Julio Alberto Amaya Merchan
+    </div>
+  </div>
+</body>
+
+</html>

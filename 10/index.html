@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--     <script  src="./aleatorio.js" type="text/javascript"></script> -->
+    <script defer src="./limpia.js" type="text/javascript"></script>
+    <script defer src="./crearPie.js" type="text/javascript"></script>
+    <script defer src="./crearCuerpo.js" type="text/javascript"></script>
+    <script defer src="./crearCabecera.js" type="text/javascript"></script>
+    <script defer src="./script.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="./styles.css" />
+    <title>TABLA CONTENIDO DOM</title>
+</head>
+
+<body>
+    <div class="content">
+        <h2>TABLA CONTENIDO DOM</h2>
+        <div class="grid-container">
+
+            <!-- TITULO -->
+            <div class="grid-item">
+                <div class="title">CREAR TABLA</div>
+            </div> <!-- FIN grid-item-->
+            <!-- RESULTADO TITULO -->
+            <div class="grid-item">
+                <div class="title">Soluciones</div>
+            </div>
+
+            <!-- ************************************************************** -->
+
+            <!-- EJERCICIO 1 -->
+            <div class="grid-item">
+                <input type='text' id="filas" placeholder="Número de filas" />
+                <input type='text' id="columnas" placeholder="Número de columnas" />
+                <input type='button' id="crearTabla" value="Crear Tabla" />&nbsp;&nbsp;<br />
+                <input type='button' id="rojo" value="Cabecera roja" />&nbsp;&nbsp;
+                <input type='button' id="verde" value="Cuerpo verde" />&nbsp;&nbsp;
+                <input type='button' id="azul" value="Pie azul" />&nbsp;&nbsp;
+                <input type='button' id="limpiar" value="Limpiar estilo" />
+            </div> <!-- FIN grid-item-->
+            <!-- RESULTADO EJERCICIO 1 -->
+            <div class="grid-item">
+                <p><strong>Creación de la Tabla</strong></p>
+                <label>
+                    <pre>Resultado: </pre>
+                </label>
+                <div id="resTabla"></div>
+            </div>
+
+            <!-- ************************************************************** -->
+        </div> <!-- FIN grid-container-->
+    </div> <!-- FIN contenedor-->
+    </br></br>
+    <a href="../index.html">Página principal</a>
+</body>
+
+</html>

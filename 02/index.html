@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./modules/aleatorio.js" type="module"></script>
+    <script src="./modules/añadirPrior.js" type="module"></script>
+    <script src="./modules/eliminarPrior.js" type="module"></script>
+    <script src="./modules/añadirLista.js" type="module"></script>
+    <script src="./modules/eliminarLista.js" type="module"></script>
+    <script src="./classes/Lista.js" type="module"></script>
+    <script src="./modules/ultimoCoche.js" type="module"></script>
+    <script src="./modules/reparo.js" type="module"></script>
+    <script src="./modules/paraReparar.js" type="module"></script>
+    <script src="./classes/Cola.js" type="module"></script>
+    <script src="./modules/ojea.js" type="module"></script>
+    <script src="./modules/lavo.js" type="module"></script>
+    <script src="./modules/paraLavar.js" type="module"></script>
+    <script src="./classes/Pila.js" type="module"></script>
+    <script defer src="./script.js" type="module"></script>
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <title>TAREAS 10/05 - SOLUCIÓN</title>
+</head>
+
+<body>
+    <div class="content">
+        <h2>PILAS LISTAS Y COLAS</h2>
+        <div class="grid-container">
+
+            <!-- ************************************************************** -->
+
+            <!-- TITULO -->
+            <div class="grid-item">
+                <div class="title">Ejercicios con Arrays</div>
+            </div> <!-- FIN grid-item-->
+            <!-- RESULTADO TITULO -->
+            <div class="grid-item">
+                <div class="title">Soluciones a los ejercicios con Arrays</div>
+            </div>
+
+            <!-- ************************************************************** -->
+
+            <!-- EJERCICIO Pila - LIFO -->
+            <div class="grid-item">
+                <p><strong>Pila (Stack) - LIFO</strong></p>
+                <input type='button' id="introducir" value="Introducir" />
+                <input type='button' id="obtener" value="Obtener" />
+                <input type='button' id="ojear" value="Ojear" />
+            </div> <!-- FIN grid-item-->
+            <!-- RESULTADO EJERCICIO Pila - LIFO -->
+            <div class="grid-item">
+                <p><strong>Resultado para Pila - LIFO</strong></p>
+                <label>
+                    <pre>Resultado: </pre>
+                </label>
+                <p id="resPila"></p>
+            </div>
+
+            <!-- ************************************************************** -->
+
+            <!-- EJERCICIO Cola - FIFO -->
+            <div class="grid-item">
+                <p><strong>Cola (Queue) - FIFO</strong></p>
+                <input type='button' id="llegada" value="Llegada" />
+                <input type='button' id="atender" value="Atender" />
+                <input type='button' id="ultimo" value="Último" />
+            </div> <!-- FIN grid-item-->
+            <!-- RESULTADO EJERCICIO Cola - FIFO -->
+            <div class="grid-item">
+                <p><strong>Resultado para Cola - FIFO</strong></p>
+                <label>
+                    <pre>Resultado: </pre>
+                </label>
+                <p id="resCola"></p>
+            </div>
+
+            <!-- ************************************************************** -->
+
+            <!-- EJERCICIO Lista -->
+            <div class="grid-item">
+                <p><strong>Listas</strong></p>
+                <input type='button' id="añadirLista" value="Añadir" />
+                <input type='button' id="eliminarLista" value="Eliminar" />
+            </div> <!-- FIN grid-item-->
+            <!-- RESULTADO EJERCICIO Lista -->
+            <div class="grid-item">
+                <p><strong>Resultado para Lista - Ordenada</strong></p>
+                <label>
+                    <pre>Resultado: </pre>
+                </label>
+                <p id="resLista"></p>
+            </div>
+
+            <!-- ************************************************************** -->
+
+            <!-- EJERCICIO Lista - Prioridad -->
+            <div class="grid-item">
+                <p><strong>Listas prioridad</strong></p>
+                <input type='button' id="añadirPrior" value="Añadir" />
+                <input type='button' id="eliminarPrior" value="Eliminar" />
+            </div> <!-- FIN grid-item-->
+            <!-- RESULTADO EJERCICIO Lista - Prioridad -->
+            <div class="grid-item">
+                <p><strong>Resultado para Lista - Prioridad</strong></p>
+                <label>
+                    <pre>Resultado: </pre>
+                </label>
+                <p id="resListaPrior"></p>
+            </div>
+
+            <!-- ************************************************************** -->
+
+        </div> <!-- FIN grid-container-->
+        </br></br>
+        <a href="../index.html">Página principal</a>
+    </div> <!-- FIN contenedor-->
+</body>
+
+</html>

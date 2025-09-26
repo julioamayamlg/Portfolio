@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Javascript en la página</title>
+  <link href="../../../css/styles.css" rel="stylesheet" type="text/css" />
+  <script defer type="text/javascript" src="./js/mostrar.js"></script>
+  <script defer type="text/javascript" src="./js/solicitud.js"></script>
+  <script defer type="text/javascript" src="./js/carga.js"></script>
+  <script defer type="text/javascript" src="./js/script.js"></script>
+</head>
+
+<body>
+  <div id="container">
+    <div id="header">
+      <h1>
+        Ejemplos – FUNDAMENTOS DE JS (ES6)
+      </h1>
+      <h2>Desarrollo WEB en entorno cliente</h2>
+    </div>
+    <div id="content">
+
+      <h2>API: www.thecocktaildb.com/api/json/v1/1/random.php</h2>
+      <p>Cargamos una receta de cocktail aleatoriamente</p>
+      <label>Elige una raza:</label>
+      <select id="tipoCocktail">
+        <option value="Alcoholic">Con alcohol</option>
+        <option value="Non alcoholic">Sin alcohol</option>
+        <option value="Optional alcohol">Opcional</option>
+      </select>
+      <br><br>
+      <input id="cargar" type="button" value="Cargar"></br></br>
+      <div><img id="imageThumb" src="" alt=""></div>
+      <div><p id="salidaTipoCocktail"></p></div>
+      <div><p id="salidaInstruction"></p></div>
+      <div class="columnas"><p id="salidaIngredient"></p></div>&nbsp;&nbsp;
+      <div class="columnas"><p id="salidaMeasure"></p></div>
+      
+      </br></br>
+      <a href="../../index.html">Página principal</a>
+    </div>
+    <div id="footer">
+      © 2024 Julio Alberto Amaya Merchan
+    </div>
+  </div>
+</body>
+
+</html>
